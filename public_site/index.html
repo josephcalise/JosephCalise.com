@@ -27,10 +27,10 @@
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">My Projects</a></li>
                 <li><a href="#work-experience">Work Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="/wotd">WordoftheDay!</a></li>
-                <li><a href="/assets/Joseph_Calise_Resume.pdf" download="Joseph Calise Resume">Resume</a></li>
+                <li><a href="/assets/Resume.pdf" download="Resume">Resume</a></li>
             </ul>
             <!-- Mobile Nav -->
     </header>
@@ -53,7 +53,8 @@
             <h2 id="hello-intro">Hello!</h2>
             <h2 id="name-intro">I am <span id="name-span">Joseph Calise</span></h2>
         </div>
-        <p id="description-intro">I am a self-taught developer currently pursing a BS in Computer Science with a Minor
+        <p id="description-intro">I am a self-taught developer currently pursing a Bachelors of Science in Computer
+            Science with a Minor
             in Analytics at Chapman
             University.</p>
         <p id="quote-intro">"Programming isn't about what you know; it's about what you can figure out." <sub>-Chris
@@ -118,7 +119,11 @@
 
             <div class="content-container">
                 <div id='map' class="map-hidden">
-                    <script src="map.js" defer></script>
+                    <script>
+                        if (screen && screen.width > 480) {
+                            document.write('<script src="map.js"><\/script>');
+                        }
+                    </script>
                 </div>
                 <div id="xp-txt" class="xp-showing">
                     <div class="button-container">
@@ -181,7 +186,7 @@
                         src="assets/icons8-instagram-96-white.png" /></a>
                 <a href="https://www.linkedin.com/in/joseph-calise-641662189/" target="_blank"><img id="linkedin-img"
                         src="assets/icons8-linkedin-96-white.png" /></a>
-                <a href="https://github.com/josephcalise" target="_blank"><img id="github-img"
+                <a href="https://github.com/jaaycali?tab=repositories" target="_blank"><img id="github-img"
                         src="assets/icons8-github-96-white.png" /></a>
             </div>
         </div>
