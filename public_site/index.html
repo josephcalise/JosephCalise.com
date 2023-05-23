@@ -5,13 +5,21 @@
     <meta charset='utf-8' />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Joseph Calise | Developer</title>
-    <link rel="icon" type="image/x-icon" href="/assets/JCicon.png">
+    <link rel="icon" type="image/x-icon" href="./assets/JCicon.png">
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script>
+        if (screen && screen.width > 480) {
+            document.write("<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'><\/script>");
+            document.write("<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />");
+        } else {
+            console.log("Mobile")
+        }
+    </script>
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
     <script src="index.js" defer></script>
@@ -21,16 +29,19 @@
     <header>
         <nav id="nav-bar">
             <div class="logo">
-                <h1 class="logo-text"><a onClick="window.location.reload();"><img src="/assets/JCicon.png"></a></h1>
+                <h1 class="logo-text"><a onClick="window.location.reload();"><img src="./assets/JCicon.png"></a></h1>
             </div>
-            <img id="hamburger" src="/assets/hamburger-menu.png" />
+            <img id="hamburger" src="./assets/hamburger-menu.png" />
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
+                <div class="verticalLine"></div>
                 <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">My Projects</a></li>
+                <div class="verticalLine"></div>
                 <li><a href="#work-experience">Work Experience</a></li>
+                <div class="verticalLine"></div>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="/assets/Resume.pdf" download="Resume">Resume</a></li>
+                <div class="verticalLine"></div>
+                <li><a href="./assets/Joseph_Calise_Resume.pdf" download="Joseph_Calise_Resume">Resume</a></li>
             </ul>
             <!-- Mobile Nav -->
     </header>
@@ -41,10 +52,11 @@
             <li class="nav-li"><a class="mobile-link" href="#work-experience">Work Experience</a></li>
             <li class="nav-li"><a class="mobile-link" href="#contact">Contact</a></li>
             <li><a href="/wotd">WordoftheDay!</a></li>
-            <li class="nav-li"><a class="mobile-link" href="/assets//Resume.pdf">Resume</a></li>
+            <li class="nav-li"><a class="mobile-link" href="./assets/Joseph_Calise_Resume.pdf"
+                    download="Joseph_Calise_Resume">Resume</a></li>
         </ul>
         <div id="mobile-dark-mode-button">
-            <img id="mobile-dark-mode-icon" class="sun" src="/assets/sun-warm.png" />
+            <img id="mobile-dark-mode-icon" class="sun" src="./assets/sun-warm.png" />
         </div>
     </div>
     </nav>
@@ -64,7 +76,7 @@
         <div class="about-me" id="about-me">
             <h2 class="title-text">About Me</h2>
             <div class="about-me-container">
-                <img id="about-me-picture" src="assets/cg-picture.jpeg" alt="A photo of myself">
+                <img id="about-me-picture" src="./assets/cg-picture.jpeg" alt="A photo of myself">
                 <div id="about-me-text">
                     <p class="about-me-text-1">My name is Joseph Calise and I am an aspiring Software Engineer. For the
                         most part I am
@@ -107,7 +119,6 @@
                 </div>
             </div>
         </div>
-
 
 
         <div class="work-experience" id="work-experience">
@@ -183,11 +194,11 @@
             <h2 class="title-text">Lets Connect!</h2>
             <div id="social-media">
                 <a href="https://www.instagram.com/joeycalise/" target="_blank"><img alt="svgImg" id="insta-img"
-                        src="assets/icons8-instagram-96-white.png" /></a>
+                        src="./assets/icons8-instagram-96-white.png" /></a>
                 <a href="https://www.linkedin.com/in/joseph-calise-641662189/" target="_blank"><img id="linkedin-img"
-                        src="assets/icons8-linkedin-96-white.png" /></a>
+                        src="./assets/icons8-linkedin-96-white.png" /></a>
                 <a href="https://github.com/jaaycali?tab=repositories" target="_blank"><img id="github-img"
-                        src="assets/icons8-github-96-white.png" /></a>
+                        src="./assets/icons8-github-96-white.png" /></a>
             </div>
         </div>
     </main>
@@ -199,10 +210,10 @@
 
     <div id="icon-div">
         <div id="to-top" class="bottom-right-buttons">
-            <img src="/assets/up-arrow.png" />
+            <img src="./assets/up-arrow.png" />
         </div>
         <div id="dark-mode">
-            <img id="dark-mode-icon" class="sun" src="/assets/sun-warm.png" />
+            <img id="dark-mode-icon" class="sun" src="./assets/sun-warm.png" />
         </div>
     </div>
 </body>

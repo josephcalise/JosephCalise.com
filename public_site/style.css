@@ -128,14 +128,17 @@ nav ul {
   display: flex;
   justify-content: space-around;
   width: 40%;
-  padding-right: 1rem;
+  padding-right: .5rem;
 }
 
 .nav-links a {
   font-family: var(--ff-text);
   font-weight: bold;
   letter-spacing: 1px;
-  font-size: 20px;
+  font-size: 1.2rem;
+}
+.verticalLine {
+  border-left: .75mm solid #1b1b1e;
 }
 
 .nav-links a:hover {
@@ -190,7 +193,7 @@ nav ul {
 
 .about-me {
   max-height: 100vh;
-  padding: 0 0 10rem 0;
+  padding: 0 0 5rem 0;
 }
 
 .about-me-container {
@@ -241,6 +244,20 @@ nav ul {
   height: 95%;
   border-radius: 5%;
   opacity: 0.9;
+}
+/*****************************************************************************************
+                                Projects
+******************************************************************************************/
+.projects {
+  height: 100vh;
+  padding-bottom: 5rem;
+  background-color: #001d3b;
+}
+.projects-container{
+  width: 90%;
+  height: 85%;
+  margin: 0 auto;
+  background-color: rgb(92, 60, 0);
 }
 
 /*****************************************************************************************
@@ -1680,7 +1697,7 @@ footer p {
   .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 45%;
     padding-right: 1rem;
   }
 
@@ -1688,7 +1705,10 @@ footer p {
     font-family: var(--ff-text);
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 13px;
+    font-size: 1.45rem;
+  }
+  .verticalLine {
+    border-left: .75mm solid #1b1b1e;
   }
 
   #name-span {
@@ -1953,15 +1973,17 @@ footer p {
   .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
-    padding-right: 1rem;
+    width: 45%;
   }
 
   .nav-links a {
     font-family: var(--ff-text);
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 1.2rem;
+  }
+  .verticalLine {
+    border-left: .75mm solid #1b1b1e;
   }
 
   #name-span {
@@ -2218,7 +2240,7 @@ footer p {
   .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 45%;
     padding-right: 1rem;
   }
 
@@ -2226,7 +2248,10 @@ footer p {
     font-family: var(--ff-text);
     font-weight: bold;
     letter-spacing: 1px;
-    font-size: 18px;
+    font-size: 1.25rem;
+  }
+  .verticalLine {
+    border-left: .75mm solid #1b1b1e;
   }
 
   #name-span {
