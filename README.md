@@ -20,9 +20,24 @@ MapBox API. The site was originally made with HTML/CSS and Vanilla JavaScript, b
 #
 
 ### Features:
-As mentioned above, the first major feature included when this was a static site was the use of the MapBox API. This API was used to generate a map that had icons of all the USCG units I was stationed at
-as well as other relevant work experience. Each icon was clickable with a pop-up description of each location. 
-<br />
-<br />
 **Wordle Clone:**
- During a semester break, I created a clone of the popular game Wordle, with a leaderboard implementation. That GitHub Repo can be viewed <a href="https://github.com/josephcalise/wordle-clone-leaderboard">here.</a> With the new addition, I implemented a backend for the site to perform the CRUD actions needed with Worlde. The backend technologies used included: NodeJS, MongoDB, Express, and Mongoose. The website is hosted on a DigitalOcean Droplet with the use of an Apache Webserver. 
+During a semester break, I created a clone of the popular game Wordle, with a leaderboard implementation. That GitHub Repo can be viewed <a href="https://github.com/josephcalise/wordle-clone-leaderboard">here.</a> With the new addition, I implemented a backend for the site to perform the CRUD actions needed with Worlde. The backend technologies used included: NodeJS, MongoDB, Express, and Mongoose. The website is hosted on a DigitalOcean Droplet with the use of an Apache Webserver. 
+<br />
+<br />
+
+**Project Cards (In Development):**
+In the project section of the website, individual cards house each project that have been completed by me. Each card houses a 3 image slider of different parts of the project running as well as a 
+short explanation and a link to their the GitHub Repo or the actual WebApp housed on my site. The top of the Projects tabs will show multiple features of the project and these will each be used 
+to filter the projects. If you want to see projects coded in C++, you can hit the C++ button and it will filter to only the projects where C++ is used. 
+<br />
+<br />
+
+**MapBox:** As mentioned above, the first major feature included when this was a static site was the use of the MapBox API. This API was used to generate a map that had icons of all the USCG units I was stationed at as well as other relevant work experience. Each icon was clickable with a pop-up description of each location.
+<br />
+
+![Screenshot 2023-05-26 at 10 04 31 AM](https://github.com/josephcalise/JosephCalise.com/assets/128929319/e09632bd-4f30-4024-be48-f019dfd40a38)
+
+<br />
+
+**Dark/Light Mode:**
+The website also possesses the capability to be put into dark or light mode. The option is housed in the bottom right corner below the "To the Top Button." The website will start naturally on the dark mode and when selected light mode can be activated by clicking the sun. When the clicked, the button will change to a moon and the option will then flip the site to dark mode.
